@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="artists.html">Artists</a>
+            <a href="#shop">Shop</a>
+        <div class="dropdown">
+            <button class="dropbtn" style="float:right" onclick="myFunction()">Account
+            <!-- <i class="fa fa-caret-down"></i> -->
+            </button>
+        <div id="drop" class="content">
+            <a href="login.html">Login</a>
+        </div>
+        </div>
+    </header>
+
+
+    <div id="loginBox">
+        <img id="avatar" src="login.png">
+        <h1> Log in</h1>
+        <form>
+            <label for="UserName">
+                <input id="UserName" required placeholder="UserName" type="UserName">
+            </label>
+            <label for="password">
+                <input id="password" required placeholder="password" type="password">
+            </label>
+                <input id="login" type="submit" value="Login" >
+                <input id="forgot" type="reset" value="Forgot password">
+            </form>
+    </div>
+                    <br>
+                    <br>
+                    <hr>
+                    <hr>
+        <div>
+            <h1> Sign Up</h1>
+            <form>
+                <label for="email">
+                    <input id="email" type="email"  placeholder="Enter email" required>
+                </label>
+                    <input id="email" type="submit" href="index.html" value="Sign Up">
+            </form>
+                <br>
+            <form>
+                <input id="newsletter" type="checkbox" name="yes" value="Sign up">
+                    <label for="newsletter">Sign up for our Newsletter?</label>
+                    
+                </label>
+            </form>
+                
+        </div>
+        
+        <!-- <a href="index.html">Forgot password</a> -->
+
+        <footer>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="social-icon-facebook.png" alt="facebook icon"
+            /></a>
+        
+            <a href="https://www.pinterest.com/" target="_blank"
+              ><img src="social-icon-pinterest.png" alt="pinterest icon"
+            /></a>
+        
+            <a href="https://x.com/" target="_blank">
+              <img src="social-icon-twitter.png" alt="twitter icon"
+            /></a>
+          </footer>
+
+</body>
+</html>
