@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-
+  
     <header>
         <div id="navbar">
-            <a href="index.html">Home</a>
-            <a href="artists.html">Artists</a>
+            <a id="home" href="index.html">Home</a>
+            <a id="art"  href="artists.html">Artists</a>
             <a href="#shop">Shop</a>
         <div class="dropdown">
             <button class="dropbtn" style="float:right" onclick="myFunction()">Account
@@ -23,7 +23,7 @@
         </div>
     </header>
 
-
+    <section>
     <div id="loginBox">
         <img id="avatar" src="login.png">
         <h1> Log in</h1>
@@ -38,20 +38,23 @@
                 <input id="forgot" type="reset" value="Forgot password">
             </form>
     </div>
+    </section>
                     <br>
                     <br>
                     <hr>
                     <hr>
+                    <br>
+     <section id="sect2">            
         <div>
-            <h1> Sign Up</h1>
-            <form>
+            <h1 id="sign"> Sign Up</h1>
+            <form id="signup">
                 <label for="email">
                     <input id="email" type="email"  placeholder="Enter email" required>
                 </label>
                     <input id="email" type="submit" href="index.html" value="Sign Up">
             </form>
                 <br>
-            <form>
+            <form id="news">
                 <input id="newsletter" type="checkbox" name="yes" value="Sign up">
                     <label for="newsletter">Sign up for our Newsletter?</label>
                     
@@ -59,8 +62,11 @@
             </form>
                 
         </div>
+    </section>
         
         <!-- <a href="index.html">Forgot password</a> -->
+
+            <br>
 
         <footer>
             <a href="https://www.facebook.com/" target="_blank">

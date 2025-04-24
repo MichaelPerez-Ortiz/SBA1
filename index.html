@@ -10,9 +10,9 @@
     <body>
         <header>
             <div id="navbar">
-                <a href="index.html">Home</a>
-                <a href="artists.html">Artists</a>
-                <a href="#shop">Shop</a>
+                <a class="nav" href="index.html">Home</a>
+                <a class="nav" href="artists.html">Artists</a>
+                <a class="nav" href="#shop">Shop</a>
             <div class="dropdown">
                 <button class="dropbtn" style="float:right" onclick="myFunction()">Account
                 <!-- <i class="fa fa-caret-down"></i> -->
@@ -131,9 +131,9 @@
                 <button onclick="myFunction()" class="dropbtn">Current</button>
                 <div id="presenters" class="dropdowncontent">
                     <ul>
-                  <li><a href="artists.html#clau">Claude</a></li>
-                  <li><a href="artists.html#raph">Raphael</a></li>
-                    <li> <a href="artists.html#bob">Bob</a></li>
+                  <li><a class="artist" href="artists.html#clau">Claude</a></li>
+                  <li><a class="artist" href="artists.html#raph">Raphael</a></li>
+                    <li><a class="artist" href="artists.html#bob">Bob</a></li>
                   </ul>
                 </div> 
             
@@ -153,16 +153,16 @@
 
       <table>
         <tr>
-            <th id="calandar">
+            <th colspan="7"  id="calandar">
                 Gallery Schedule
             </th>
         </tr>
         <tr>
-            <th id="month">
+            <th colspan="7" id="month">
                 April
             </th>
         </tr>
-        <tr>
+        <tr id="c1">
             <th>
                 Sunday
             </th>
@@ -351,7 +351,7 @@
                 <br>
             10am-5pm
             </th>
-            <th>
+            <th id="thirty">
                 30
                 <br>
                 10am-5pm

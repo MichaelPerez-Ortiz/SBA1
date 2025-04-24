@@ -1,0 +1,117 @@
+body{
+  background-color: rgb(127, 134, 152);
+}
+header{
+    position: relative;
+    margin: 0 auto 5px auto;
+    padding: 1%;
+    background-color:  rgb(81, 100, 150);
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+a{
+    background-color: rgb(64, 93, 169);
+    border:1px solid black;
+    margin:7%;
+    padding: 1%;
+}
+
+    
+/* }
+ section{
+    background-color: rgb(221, 216, 196);
+    
+} */
+
+#loginBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgb(221, 216, 196);
+    border: 2px dashed black;
+    width:100%;
+    max-height: 50%;
+    padding:2%;
+
+}
+
+/* hr{
+    border-top: dotted  rgb(221, 216, 196);
+} */
+
+#sect2{
+
+  
+    border: 2px dashed black;
+    width:100%;
+    min-height: 100%;
+    padding:2%;
+    background-color: rgb(221, 216, 196);
+   
+
+
+}
+
+#sign{
+    text-align: center;
+    margin-left: 1%;
+}
+
+#UserName{
+    text-align: center;
+    display: block;
+    margin: 5% 0 10%;
+    padding: 7%;
+    border: 2px solid black
+}
+
+#password{
+    text-align: center;
+    display: block;
+    margin: 5% 0 10%;
+    padding: 7%;
+    border: 2px solid black
+}
+
+#login{
+    text-align: center;
+    display: block;
+    margin: 5% 0 10%;
+    padding: 7%;
+    border: 2px solid black
+
+}
+
+#forgot{
+    text-align: center;
+    display: block;
+    margin: 5% 0 10% 5%;
+    padding: 7%;
+    border: 2px solid black
+
+}
+
+#signup{
+    text-align: center;
+    display: block;
+    margin-left: 3%;
+    
+}
+
+#news{
+    text-align: center;
+    display: block;
+    margin-left: 2% ;
+    font-size: larger;
+}
+
+footer{
+    margin: 15% 0 0 6%;
+    justify-self: center
+    
+    
+}
+
+/* 204, 113, 120 */

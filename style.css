@@ -1,3 +1,36 @@
+body{
+    background-color: rgb(127, 134, 152);
+}
+
+
+header{
+    position: relative;
+    margin: 0 auto 5px auto;
+    padding: 1%;
+    background-color:  rgb(81, 100, 150);
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.nav{
+    background-color: rgb(64, 93, 169);
+    margin:7%;
+    padding: 1%;
+}
+
+
+p{
+    background-color:  rgb(221, 216, 196);
+    width:50%;
+}
+
+
+
+
+
+
+
+
 aside{
     float: right;
     margin-bottom: 50%;
@@ -13,4 +46,23 @@ ul li::before{
 }
 
 
+table, th, td{
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    margin: 30% auto;
+}
 
+#thirty{
+    width: 20%;
+
+} 
+
+
+
+footer{
+    margin-top: 100%;
+    justify-self: center
+    
+    
+}
