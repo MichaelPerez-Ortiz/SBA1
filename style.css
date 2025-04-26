@@ -1,7 +1,98 @@
 body{
     background-color: rgb(127, 134, 152);
+    padding-top: 10%;
 }
 
+h1{
+    text-align: center;
+    font-size: 100px;
+    border: none;
+    margin-top: 0;
+    width:100%;
+    position:relative;
+}
+
+/* h2{
+    width:50%;
+    border:10px solid black;
+}
+
+h3 strong{
+    border: 1px solid black;
+    float: left;
+    
+
+} */
+
+/* h3 i{
+    border: 1px solid black;   
+    padding: 0;
+    float: left;
+   
+}
+
+h3{
+    width: 10%;
+    flex-direction: col;
+   
+} */
+
+
+
+#top1{
+    margin-bottom: 1%;
+    /* width:85%;
+    clear: both;
+    float:left;  
+   */
+}
+
+#top2{
+    width:75%;
+    clear: both;
+    float:left;
+    
+   
+}
+#top3{
+    width:65%;
+    clear: both;
+    float:left;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   
+}
+
+#top4{
+    width:75%;
+    clear: both;
+    float:left;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   
+}
+
+
+
+#top5{
+    width:45%;
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 1%;
+    border-top: 1px dashed  rgb(221, 216, 196);
+    
+}
+
+
+#top6{
+    width:85%;
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 1%;
+    border-top: 1px dashed  rgb(221, 216, 196);
+    
+    
+}
 
 header{
     position: relative;
@@ -10,40 +101,230 @@ header{
     background-color:  rgb(81, 100, 150);
     border: 1px solid black;
     justify-content: space-around;
+    border:2px solid black;
+    box-shadow: 2px 5px 7px;
+    position: fixed; 
+    top: 0;
+    width: 97%;
 }
 
 .nav{
+    box-shadow: 2px 2px 5px;
+}
+
+.nav:hover{
+    background-color: #6E0D25;
+}
+
+.nav:active{
+    box-shadow: inset 2px 2px 5px;
+}
+
+#navbar{
+    list-style-type: none;
     background-color: rgb(64, 93, 169);
-    margin:7%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 5px 7px;
+    overflow: hidden;
+}
+
+#navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+
+.dropbtn {
+    color:black;
+    background-color:rgb(64, 93, 169);
+    border:0px;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    float: right;
+    margin: 0;
+    cursor: pointer;
+    
+    
+  }
+  
+  #dropdown button:hover{
+    background-color: #CC7178;
+    transition-duration:2s;
+    
+    
+}
+#dropdown button:active {
+    background-color: #6E0D25;
+    transition-duration:0s;
+    box-shadow: inset 2px 5px 5px;
+    
+}
+
+
+  #dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    
+    
+  }
+  
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 100%;
+overflow: auto;
+background-color: rgb(116, 132, 174);
+box-shadow: 2px 5px 7px;
+z-index: 1;
+padding: 12px 16px;
+}
+  
+
+.dropdown-content a {
+float: none;
+color: black;
+text-decoration: none;
+display: block;
+}
+  
+
+.dropdown-content a:hover{
+background-color: #6E0D25;
+}
+
+
+.show{
+display:block;
+}
+
+
+
+
+#p1{
+    background-color:  rgb(221, 216, 196);
+    width:50%;
+    border:2px solid black;
     padding: 1%;
 }
 
-
-p{
+#p2{
     background-color:  rgb(221, 216, 196);
     width:50%;
+    border:2px solid black;
+    padding: 1%;
+}
+
+#Addr{
+    float:left;
+    background-color:  rgb(213, 207, 182);
+    margin: 0;
+ 
+ }
+
+
+
+
+h3{
+    border:1px solid black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 7px 11px 5px 5px;
+    text-align: center;
+    background-color:rgb(64, 93, 169);
+    cursor: default;
 }
 
 
-
-
-
-
-
+#exhibits{
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px 5px 5px 10px;
+    background-color: rgb(81, 100, 150);
+    box-shadow: 2px 2px 5px;
+    position: fixed; 
+    top:50%;
+    right: 0;
+    width: 9%;
+    
+    
+}
 
 aside{
+    display: inline-block;
     float: right;
-    margin-bottom: 50%;
+    margin-bottom: 5%;
+    background-color:  rgb(64, 93, 169);
+    box-shadow: 2px 2px 5px;
+    
+   
 }
 
-ul{
-    list-style: none;
-        
+
+
+aside button{
+    background-color: rgb(64, 93, 169);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 70px;
+    
 }
 
-ul li::before{
-    content: "\25BA \0020";
+aside a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 5px;
+    
 }
+
+aside .content{
+    display: none;
+    position: absolute;
+    background-color: #CC7178;
+    min-width: 100%;
+    box-shadow: 2px 2px 5px;
+/*    
+    rgb(81, 100, 150) */
+}
+
+
+aside:hover .content{
+    display: block;
+    
+}
+
+aside:hover button{
+    background-color: rgb(81, 100, 150);
+    box-shadow: inset 5px 3px 5px;
+}
+
+aside a:hover{
+    background-color: crimson;
+    box-shadow: 10px 10px 5px;
+}
+
+aside a:active{
+    background-color: crimson;
+    box-shadow:inset 3px 5px 5px;
+}
+
+
 
 
 table, th, td{
@@ -51,18 +332,43 @@ table, th, td{
     width: 20%;
     height: 100%;
     margin: 30% auto;
+    background-color: rgb(81, 100, 150);
+   
 }
 
-#thirty{
+th{
+    cursor: default;
+}
+
+ #data:hover{
+    box-shadow:  2px 2px 5px;
+    cursor: pointer;
+   
+}
+
+table{
+    border-spacing: 10px;
+    box-shadow: 2px 2px 5px;
+    background-color: rgb(64, 93, 169);
+}
+
+/* #thirty{
     width: 20%;
 
-} 
+}  */
 
 
 
 footer{
-    margin-top: 100%;
-    justify-self: center
+    margin-top: 25%;
+    justify-self: center;
+    background-color: #CC7178;
+    border-radius: 80%;
+  
     
     
 }
+
+/* a{
+    text-shadow: 2px 2px 5px;;
+} */

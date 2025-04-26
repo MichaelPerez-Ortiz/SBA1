@@ -1,6 +1,9 @@
 body{
-  background-color: rgb(127, 134, 152);
+    background-color: rgb(127, 134, 152);
+    padding-top: 10%;
 }
+
+
 header{
     position: relative;
     margin: 0 auto 5px auto;
@@ -8,21 +11,112 @@ header{
     background-color:  rgb(81, 100, 150);
     border: 1px solid black;
     justify-content: space-around;
+    border:2px solid black;
+    box-shadow: 2px 5px 7px;
+    position: fixed; 
+    top: 0;
+    width: 97%;
 }
 
-a{
+.nav{
+    box-shadow: 2px 2px 5px;
+}
+
+.nav:hover{
+    background-color: #6E0D25;
+}
+
+.nav:active{
+    box-shadow: inset 2px 2px 5px;
+}
+
+#navbar{
+    list-style-type: none;
     background-color: rgb(64, 93, 169);
-    border:1px solid black;
-    margin:7%;
-    padding: 1%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 5px 7px;
+    overflow: hidden;
 }
 
+#navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+
+.dropbtn {
+    color:black;
+    background-color:rgb(64, 93, 169);
+    border:0px;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    float: right;
+    margin: 0;
+    cursor: pointer;
     
-/* }
- section{
-    background-color: rgb(221, 216, 196);
     
-} */
+  }
+  
+  #dropdown button:hover{
+    background-color: #CC7178;
+    transition-duration:2s;
+    
+    
+}
+#dropdown button:active {
+    background-color: #6E0D25;
+    transition-duration:0s;
+    box-shadow: inset 2px 5px 5px;
+    
+}
+
+
+  #dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    
+    
+  }
+  
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 100%;
+overflow: auto;
+background-color: rgb(116, 132, 174);
+box-shadow: 2px 5px 7px;
+z-index: 1;
+padding: 12px 16px;
+}
+  
+
+.dropdown-content a {
+float: none;
+color: black;
+text-decoration: none;
+display: block;
+}
+  
+
+.dropdown-content a:hover{
+background-color: #6E0D25;
+}
+
+
+.show{
+display:block;
+}
+
+
+
 
 #loginBox{
     display: flex;
@@ -54,15 +148,26 @@ a{
 
 }
 
+#avatar{
+    width:150px;
+    border-radius: 90%;
+    margin-left: 1%;
+    box-shadow: 3px 7px 20px;
+}
+
+section{
+    margin-right: 3%;
+}
+
 #sign{
     text-align: center;
-    margin-left: 1%;
+    margin-right: 1%;
 }
 
 #UserName{
     text-align: center;
     display: block;
-    margin: 5% 0 10%;
+    margin: 5% 2% 10%;
     padding: 7%;
     border: 2px solid black
 }
@@ -78,10 +183,14 @@ a{
 #login{
     text-align: center;
     display: block;
-    margin: 5% 0 10%;
+    margin: 5% 3 10%;
     padding: 7%;
-    border: 2px solid black
+    border: 2px solid black;
+}
 
+#login:hover{
+    background-color: antiquewhite;
+    box-shadow: 2px 5px 7px;
 }
 
 #forgot{
@@ -96,20 +205,22 @@ a{
 #signup{
     text-align: center;
     display: block;
-    margin-left: 3%;
+    margin-right: 3%;
     
 }
 
 #news{
     text-align: center;
     display: block;
-    margin-left: 2% ;
+    margin-right: 2% ;
     font-size: larger;
 }
 
 footer{
-    margin: 15% 0 0 6%;
-    justify-self: center
+    margin-top: 25%;
+    justify-self: center;
+    background-color: #CC7178;
+    border-radius: 80%;
     
     
 }
