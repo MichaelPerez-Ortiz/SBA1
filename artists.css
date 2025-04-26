@@ -23,6 +23,7 @@ h2{
     position: fixed; 
     top: 0;
     width: 97%;
+    z-index: 1;
     }
 
     .nav{
@@ -472,12 +473,14 @@ h6 {
 
     .carousel {
     position: relative;
+    
     }
 
     .carousel-inner {
     position: relative;
     width: 40%;
-    overflow: hidden
+    overflow: hidden;
+    box-shadow: 0px 5px 7px;;
     }
 
     .carousel-inner>.item {
@@ -593,7 +596,7 @@ h6 {
     }
 
     .carousel-control.right {
-    right: 0;
+    right: 60%;
     left: auto;
     background-image: -webkit-linear-gradient(left, rgba(196, 28, 28, 0) 0, rgba(185, 65, 65, 0.5) 100%);
     background-image: -o-linear-gradient(left, rgba(211, 10, 10, 0) 0, rgba(185, 65, 65, 0.5) 100%);
@@ -612,7 +615,7 @@ h6 {
     opacity: .9
     }
 
-    /* CarouselEnd? */
+   
 
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
@@ -656,9 +659,9 @@ h6 {
     .carousel-indicators {
     position: absolute;
     bottom: 10px;
-    left: 50%;
+    left: 47%;
     z-index: 15;
-    width: 60%;
+    width: 3%;
     padding-left: 0;
     margin-left: -30%;
     text-align: center;
@@ -687,9 +690,9 @@ h6 {
 
     .carousel-caption {
     position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
+    right: 50%;
+    bottom: 15px;
+    left: 1%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -701,6 +704,8 @@ h6 {
     .carousel-caption .btn {
     text-shadow: none
     }
+
+    
 
     @media screen and (min-width:768px) {
 
