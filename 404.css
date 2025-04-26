@@ -80,7 +80,7 @@ header{
 
   #dropdown {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     
     
